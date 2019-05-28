@@ -11,7 +11,7 @@ class TestCalculator:
         assert 4 == calculator.add(2, 2)
 
     def test_addition2(self):
-        assert 1 == calculator.add(2, -2)
+        assert 0 == calculator.add(2, -2)
 
     def test_subtraction(self):
         assert 2 == calculator.subtract(4, 2)
